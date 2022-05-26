@@ -1,1236 +1,243 @@
 
 <!DOCTYPE html>
-  <html itemscope itemtype="http://schema.org/WebPage" lang="es">
-    <head>
-      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
-
-      <link rel="dns-prefetch" href="https://static.web-repository.com">
-      <link rel="preconnect" href="https://static.web-repository.com">
-      <link rel="dns-prefetch" href="https://content.app-sources.com/">
-      <link rel="preconnect" href="https://content.app-sources.com/">
-      <link rel="preload" as="script" href="https://static.web-repository.com/scripts/platform.client.min.js?v=900" />
-
-      <link rel="icon" href="data:," />
-
-      <title>Sistema Video</title>
-
-      <link rel="canonical" href="https://sistemavideo.online/" />
-      <meta property="og:url" content="https://sistemavideo.online/"/>
-      <meta itemprop="url" content="https://sistemavideo.online/"/>
-      <meta name="twitter:url" content="https://sistemavideo.online/"/>
-      <meta name="description" content="" />
-      <meta property="og:site_name" content="P.M [Herramienta Videos M.] 0" />
-      <meta property="og:title" content="Sistema Video"/>
-      <meta property="og:type" content="website"/>
-      <meta property="og:description" content=""/>
-      <meta itemprop="name" content="Sistema Video"/>
-      <meta itemprop="description" content=""/>
-      <meta name="twitter:title" content="Sistema Video"/>
-      <meta name="twitter:card" content="summary"/>
-      <meta name="twitter:description" content=""/>
-      <script type="text/javascript">
-        var WebPlatform = window.WebPlatform || {};
-
-        WebPlatform.cookiesDisclaimer = ''.trim();
-        WebPlatform.cookiesInfoBtn = "".trim();
-        WebPlatform.cookiesInfoBtnLink = "".trim();
-        WebPlatform.cookiesAcceptBtnText = "".trim() || 'OK';
-        WebPlatform.ipCountryCode = "BR";
-
-        WebPlatform.dateFormat = 'dd/mm/yy';
-        if (!WebPlatform.onReady) {
-          WebPlatform.documentReadyRequests = [];
-          WebPlatform.onReady = function (request) {
-            if (WebPlatform.documentReadyRequests === null)
-              request();
-            else
-              WebPlatform.documentReadyRequests.push(request);
-          };
-        }
-
-        if (!WebPlatform.merge) {
-          WebPlatform.merge = function (target, source) {
-            for (var key in source)
-              if ((typeof target[key] === "undefined") || target[key] === '')
-                target[key] = source[key];
-            return target;
-          };
-        }
-      </script>
-      <link href="https://static.web-repository.com/styles/platform.client.min.css?v=900" type="text/css" rel="stylesheet"/>
-        <link rel="preload stylesheet" as="style"
-            href="https://static.web-repository.com/t/theme25/css/trunk.min.css?v=900" id="style-default" class="stylesheet" />
-
-      <link rel="preload stylesheet" as="style" media="(max-width: 1024px)"
-            href="https://static.web-repository.com/t/theme25/css/trunk-1024.min.css?v=900" id="style-1024" class="stylesheet" />
-
-      <link rel="preload stylesheet" as="style" media="(max-width: 768px)"
-            href="https://static.web-repository.com/t/theme25/css/trunk-768.min.css?v=900" id="style-768" class="stylesheet" />
-
-      <link rel="preload stylesheet" as="style" media="(max-width: 480px)"
-            href="https://static.web-repository.com/t/theme25/css/trunk-480.min.css?v=900" id="style-480" class="stylesheet"/>
-
-      <meta property="og:image" content="https://content.app-sources.com/" />
-        <meta itemprop="image" content="https://content.app-sources.com/" />
-        <meta name="twitter:image" content="https://content.app-sources.com/"/>
-      <!--[if lt IE 9]>
-      <script type="text/javascript" src="https://static.web-repository.com/scripts/common/html5shiv.min.js"></script>
-      <![endif]-->
-      <style type="text/css" id="global-styles">
-  
-
-  :root {
-    --color-primary: #eb6a56;
-    --color-secondary1: #028090;
-    --color-secondary2: #00A896;
-    --color-secondary3: #02C39A;
-    --color-secondary4: #F0F3BD;
-  }
-
-  
-    .theme .color-primary, .color-primary {
-      color: #eb6a56;
-    }
-    .theme .bg-color-primary, .bg-color-primary {
-      background-color: #eb6a56;
-    }
-    .theme .border-color-primary, .border-color-primary {
-      border-color: #eb6a56;
-    }
-    .theme .fill-color-primary, .fill-color-primary {
-      fill: #eb6a56;
-    }
-  
-    .theme .color-secondary1, .color-secondary1 {
-      color: #028090;
-    }
-    .theme .bg-color-secondary1, .bg-color-secondary1 {
-      background-color: #028090;
-    }
-    .theme .border-color-secondary1, .border-color-secondary1 {
-      border-color: #028090;
-    }
-    .theme .fill-color-secondary1, .fill-color-secondary1 {
-      fill: #028090;
-    }
-  
-    .theme .color-secondary2, .color-secondary2 {
-      color: #00A896;
-    }
-    .theme .bg-color-secondary2, .bg-color-secondary2 {
-      background-color: #00A896;
-    }
-    .theme .border-color-secondary2, .border-color-secondary2 {
-      border-color: #00A896;
-    }
-    .theme .fill-color-secondary2, .fill-color-secondary2 {
-      fill: #00A896;
-    }
-  
-    .theme .color-secondary3, .color-secondary3 {
-      color: #02C39A;
-    }
-    .theme .bg-color-secondary3, .bg-color-secondary3 {
-      background-color: #02C39A;
-    }
-    .theme .border-color-secondary3, .border-color-secondary3 {
-      border-color: #02C39A;
-    }
-    .theme .fill-color-secondary3, .fill-color-secondary3 {
-      fill: #02C39A;
-    }
-  
-    .theme .color-secondary4, .color-secondary4 {
-      color: #F0F3BD;
-    }
-    .theme .bg-color-secondary4, .bg-color-secondary4 {
-      background-color: #F0F3BD;
-    }
-    .theme .border-color-secondary4, .border-color-secondary4 {
-      border-color: #F0F3BD;
-    }
-    .theme .fill-color-secondary4, .fill-color-secondary4 {
-      fill: #F0F3BD;
-    }
-  
-    .note-editable.panel-body h1, 
-    .text-widget-content h1,
-    .post-description h1 {
-      font-family: Open Sans, arial;
-      line-height: 1em;
-      font-size: 72px;
-      color: #3e3e3e;
-      
-          letter-spacing: normal;
-        
-    }
-  
-    .note-editable.panel-body h2, 
-    .text-widget-content h2,
-    .post-description h2 {
-      font-family: Open Sans, arial;
-      line-height: 1em;
-      font-size: 42px;
-      color: #3e3e3e;
-      
-          letter-spacing: normal;
-        
-    }
-  
-    .note-editable.panel-body h3, 
-    .text-widget-content h3,
-    .post-description h3 {
-      font-family: Open Sans, arial;
-      line-height: 1em;
-      font-size: 32px;
-      color: #3e3e3e;
-      
-          letter-spacing: normal;
-        
-    }
-  
-    .note-editable.panel-body h4, 
-    .text-widget-content h4,
-    .post-description h4 {
-      font-family: Open Sans, arial;
-      line-height: 1em;
-      font-size: 24px;
-      color: #3e3e3e;
-      
-          letter-spacing: normal;
-        
-    }
-  
-    .note-editable.panel-body h5, 
-    .text-widget-content h5,
-    .post-description h5 {
-      font-family: Open Sans, arial;
-      line-height: 1em;
-      font-size: 18px;
-      color: #3e3e3e;
-      
-          letter-spacing: normal;
-        
-    }
-  
-    .note-editable.panel-body h6, 
-    .text-widget-content h6,
-    .post-description h6 {
-      font-family: Open Sans, arial;
-      line-height: 1em;
-      font-size: 15px;
-      color: #3e3e3e;
-      
-          letter-spacing: normal;
-        
-    }
-  
-        .note-editable.panel-body li, 
-        .text-widget-content li, 
-      
-    .note-editable.panel-body p, 
-    .text-widget-content p,
-    .post-description p {
-      font-family: Open Sans, arial;
-      line-height: 1.6em;
-      font-size: 15px;
-      color: #3e3e3e;
-      
-          letter-spacing: normal;
-        
-    }
-  
-        .note-editable.panel-body blockquote > p,
-        .text-widget-content blockquote > p,
-      
-    .note-editable.panel-body blockquote, 
-    .text-widget-content blockquote,
-    .post-description blockquote {
-      font-family: Open Sans, arial;
-      line-height: 1.6em;
-      font-size: 15px;
-      color: #3e3e3e;
-      
-          letter-spacing: normal;
-        
-    }
-  
-    body {}
-    @media screen and (max-width: 768px) {
-     .note-editable.panel-body h1, 
-       .text-widget-content h1 {
-        font-family: Open Sans;
-        line-height: 1em;
-        font-size: 48px !important;
-        color: #3e3e3e;
-        
-            letter-spacing: normal;
-          
-      }
-
-     .note-editable.panel-body h2, 
-       .text-widget-content h2 {
-        font-family: Open Sans;
-        line-height: 1em;
-        font-size: 32px !important;
-        color: #3e3e3e;
-        
-            letter-spacing: normal;
-          
-      }
-
-     .note-editable.panel-body h3, 
-       .text-widget-content h3 {
-        font-family: Open Sans;
-        line-height: 1em;
-        font-size: 26px !important;
-        color: #3e3e3e;
-        
-            letter-spacing: normal;
-          
-      }
-
-     .note-editable.panel-body h4, 
-       .text-widget-content h4 {
-        font-family: Open Sans;
-        line-height: 1em;
-        font-size: 22px !important;
-        color: #3e3e3e;
-        
-            letter-spacing: normal;
-          
-      }
-
-     .note-editable.panel-body h5, 
-       .text-widget-content h5 {
-        font-family: Open Sans;
-        line-height: 1em;
-        font-size: 18px !important;
-        color: #3e3e3e;
-        
-            letter-spacing: normal;
-          
-      }
-
-     .note-editable.panel-body h6, 
-       .text-widget-content h6 {
-        font-family: Open Sans;
-        line-height: 1em;
-        font-size: 14px !important;
-        color: #3e3e3e;
-        
-            letter-spacing: normal;
-          
-      }
-
-     .note-editable.panel-body li, 
-           .text-widget-content li,    
-         .note-editable.panel-body p, 
-       .text-widget-content p {
-        font-family: Open Sans;
-        line-height: 1.6em;
-        font-size: 14px !important;
-        color: #3e3e3e;
-        
-            letter-spacing: normal;
-          
-      }
-
-     .note-editable.panel-body blockquote > p,
-           .text-widget-content blockquote > p,
-         .note-editable.panel-body blockquote, 
-       .text-widget-content blockquote {
-        font-family: Open Sans;
-        line-height: 1.6em;
-        font-size: 14px !important;
-        color: #3e3e3e;
-        
-            letter-spacing: normal;
-          
-      }
-
-    
-      body {}
-    }
-  
-
-  .page-layout:not(.style-boxed-layout) .grid-content,
-  .theme .page-layout:not(.style-boxed-layout) .container,
-  .page-layout.header-layout-floating:not(.style-boxed-layout) .main-header-wrapper,
-  .page-layout.fixed-header-layout-floating:not(.style-boxed-layout) .fixed-header-wrapper,
-  .mega-menu-inner, .megamenu-settings-wrapper {
-    max-width: 1100px;
-  }
-
-  .style-boxed-layout.page-layout,
-  .theme .style-boxed-layout .fixed-header-wrapper, 
-  .theme .style-boxed-layout .fixed-header-wrapper.visible,
-  #website.theme .fixed-header-layout-floating .fixed-header-wrapper, 
-  #website.theme .fixed-header-layout-floating .fixed-header-wrapper.visible
-  {
-    width: 1100px;
-  }
-  /*
-    #website.theme .header-layout-floating .fixed-header-wrapper, 
-    #website.theme .header-layout-floating .fixed-header-wrapper.visible {
-      width: 1100px;
-    }*/
-  /*
-    #website.theme .fixed-header-layout-floating .fixed-header-wrapper, 
-    #website.theme .fixed-header-layout-floating .fixed-header-wrapper.visible {
-      width: calc(1100px - 130px) !important;
-  }
-  */
-  .style-boxed-layout .grid-content,
-  .style-boxed-layout .container,
-  .style-boxed-layout.header-layout-floating .main-header-wrapper,
-  .style-boxed-layout.fixed-header-layout-floating .fixed-header-wrapper {
-    max-width: 90%;
-  }
-
-  .note-editable.panel-body a,
-  .text-widget-content a {
-    color: ;
-    text-decoration: none;
-  }
-
-  .note-editable.panel-body a:hover,
-  .text-widget-content a:hover {
-    color: ;
-    text-decoration: none;
-  }
-
-  .theme .page-layout {
-    background: #ffffff;
-  }
-
-  .theme .primaryColor,
-  .theme .highlightColor:hover,
-  .theme .smaller .highlightColor:hover,
-  .theme .highlightColor.active,
-  .portfolio-filter ul li.active a, 
-  .portfolio-filter ul li a:hover,
-  .portfolio-list-wrapper .image-overlay a:hover,
-  .portfolio-widget-item .primaryColor-bg2:hover,
-  .tmdp-pagination [data-role]:hover i, .blog-back-btn:hover i,
-  .products-filter-style-1 ul li.active a,
-  .products-filter-style-1 ul li a:hover,
-  .side-filter .products-filter section > ul > li.active > a,
-  .side-filter .products-filter section > ul > li:hover > a,
-  .side-filter .products-filter section ul li li:hover > a,
-  .side-filter .products-filter section ul li li.active > a,
-  .has-subcategories div:hover:before,
-  .store6 .product-item-description .product-item-price,
-  .post-category a,
-  .login-question a,
-  .promo-code-toggle-btn,
-  .steps-nav-wrapper a.active,
-  .steps-nav-wrapper a:hover,
-  .steps-nav-wrapper a.active:after,
-  .box-select h5,
-  .quick-view-wrapper .product-body-container .quick-view-title a:hover,
-  .theme .view-details-btn,
-  .products-filter .search-form button:hover:after,
-  .product-characteristics:hover,
-  .product-reviews-link:hover,
-  .theme .profile-sidebar li:hover a,
-  .member-logout-button
-  {
-    color: #eb6a56 !important;
-  }
-
-  .cart-table.style-2 .fake-checkbox.checked,
-  .cart-table.style-2 .fake-checkbox:hover:before {
-    border: 2px solid #eb6a56;
-  }
-
-  .theme .active > .website-nav-link {
-    color: #eb6a56;
-  }
-
-  .theme .primaryColor-bg:hover,
-  .tmdp-pagination [data-role="0"],
-  .theme .active .primaryColor-bg {
-    background-color: #eb6a56;
-    border-color: #eb6a56;
-  }
-
-  .theme .active .primaryColor-bg,
-  .theme .primaryColor-bg:hover,
-  .theme .smaller .primaryColor-bg:hover,
-  .theme .smaller .active .primaryColor-bg {
-    color: #fff !important;
-  }
-
-  .theme .signin-button:hover svg,
-  .theme .cart-button:hover svg,
-  .theme .signin-button.active svg,
-  .theme .cart-button.active svg,
-  .theme .smaller .signin-button:hover svg,
-  .theme .smaller .cart-button:hover svg,
-  .theme .smaller .signin-button.active svg,
-  .theme .smaller .cart-button.active svg,
-  .booking-final-step .booking-name svg {
-    fill: #eb6a56;
-  }
-
-  .theme .primaryColor-bg2, 
-  .top-bar .social-media i,
-  .theme .read-more,
-  .blog-comment-form a:hover,
-  .theme .buttons-wrapper-outer .primaryColor-bg2,
-  .product-main-photo.has-badge:after,
-  .live-theme .ui-widget-header,
-  nav li a:before,
-  .store2 .product-item .product-badge,
-  .theme .profile-sidebar li a:after,
-  .vertical-menu-styling.design-4 li:after,
-  .live-theme-message a,
-  .next-step-popup svg,
-  .form-field .custom-checkbox input[type=checkbox]:checked + .custom-checkbox-label:before,
-  .form-field .custom-checkbox input[type=radio]:checked + .custom-checkbox-label:before,
-  .elite-widget ul li.active a:after,
-  .elite-tab-call-to-action,
-  .cart-title:after,
-  .product-tabs li a.active:after,
-  .checkout-style-2 .checkout-step.active,
-  .live-theme .widget-checkout .checkout-info span .variations-update, 
-  .product-info .variations-update,
-  .fake-checkbox.checked:before,
-  .bump-active .tick-wrapper:before,
-  .title-border,
-  .theme .manage-link,
-  .theme .profile-sidebar li a.active,
-  .copy-link-icon,
-  .fake-checkbox:hover:before,
-  .grid-content-store .product-price .price-discount-tag,
-  .variation-wrapper-radio .box-select.active:before,
-  .variation-wrapper-check .box-select.active:before,
-  .product-photo-list li a.active:after,
-  .product-photo-list li a:hover:after,
-  .next-step-popup.cart-preview-full-height a
-  {
-    background-color: #eb6a56;
-  }
-
-  .theme .border-color,
-  article blockquote,
-  .theme nav li ul,
-  .theme .primaryColor-border, 
-  blockquote,
-  .portfolio-filter ul li.active a,
-  .tmdp-pagination [data-role]:hover, .blog-back-btn:hover,
-  .theme .profile-sidebar li a.active,
-  .products-filter-style-1 ul li.active a,
-  .pagination-wrapper li a:hover, .pagination-wrapper li.active a,
-  .products-filter-style-2 li.active a,
-  .vertical-menu-styling.design-2 li:hover,
-  .vertical-menu-styling.design-2 li.active,
-  .vertical-menu-styling.design-3 li:hover,
-  .vertical-menu-styling.design-3 li.active,
-  .form-field .custom-checkbox input[type=checkbox]:checked + .custom-checkbox-label:before,
-  .form-field .custom-checkbox input[type=radio]:checked + .custom-checkbox-label:before,
-  /*.select-wrapper.style-1 ul li a.active,
-  .select-wrapper.style-1 ul li a:hover,
-  .select-wrapper.style-2 ul li a.active,
-  .select-wrapper.style-2 ul li a:hover,
-  .select-wrapper.style-3 ul li a.active,
-  .select-wrapper.style-3 ul li a:hover,
-  .select-wrapper.style-1 ul li a.active:before,
-  .select-wrapper.style-2 ul li a.active:before,
-  .select-wrapper.style-3 ul li a.active:before,*/
-  .box-select.active, .box-select:hover,
-  .circle-select:hover, 
-  .circle-select.active, 
-  .color-select.active, 
-  .color-select:hover,
-  .checkout-style-1 .checkout-step.active, 
-  .checkout-style-1 .checkout-step:hover,
-  .fake-checkbox.checked:before,
-  .bump-active .tick-wrapper:before,
-  .variation-wrapper-radio .box-select.active:before,
-  .variation-wrapper-check .box-select.active:before
-  {
-    border-color: #eb6a56;
-  }
-
-  .theme .header-side-style-1 nav ul li.website-nav-link-highlighted > a,
-  .theme .header-side-style-1a nav ul li.website-nav-link-highlighted >a {
-    border-color: #eb6a56;
-  }
-
-  .checkout-spinner {
-    border-color: #eb6a56;
-    border-top-color: rgba(0, 0, 0, .2);
-    border-right-color: rgba(0, 0, 0, .2);
-    border-bottom-color: rgba(0, 0, 0, .2);
-  }
-
-  .tmdp-slides-loading,
-  #client-ajax-message,
-  #portfolio-popup-content.active-loading, 
-  #tmdp-simple-lightbox-content.active-loading,
-  .loader.active-loading {
-    border-left-color: #eb6a56;
-  }
-
-  .posts-list-wrapper .post-title a,
-  article .post-meta a, 
-  article .post-meta p,
-  .portfolio-filter li a,
-  .product-item-description h3,
-  .product-item-description .product-item-price,
-  .breadcrumb li a, .breadcrumb li span,
-  .product-body-container h2,
-  .product-page-style-image-top .product-price span,
-  article .post-meta span,
-  .theme .post-title,
-  .comments-list h3,
-  .blog-tag-cloud a,
-  .post-categories,
-  .checkout-wrapper h2,
-  .checkout-wrapper .cart-labels span,
-  .checkout-wrapper .product-info a,
-  .checkout-wrapper .cart-container .qty, 
-  .checkout-wrapper .cart-container .row-total,
-  .checkout-wrapper .subtotal-wrapper span,
-  .live-theme .checkout-wrapper .promo-code-toggle-btn,
-  .checkout-wrapper .cart-container .row-delete i,
-  .product-price span,
-  .products-showing span,
-  .filter-lane label,
-  .products-filter-style-2 li a,
-  .product-body-container h1,
-  .checkout-wrapper h1,
-  .no-items-text
-  {
-    color: #3e3e3e;
-  }
-
-  .tmdp-bullets .tmdp-bullet:hover, 
-  .tmdp-bullets .tmdp-bullet.active,
-  .side-filter .products-filter ul li a:hover:before,
-  .side-filter .products-filter ul li.active > a:before {
-    background: #eb6a56 !important;
-    border-color: #eb6a56 !important;
-  }
-
-  .theme .highlightBg:hover {
-    background: #eb6a56;
-    color: #fff !important;
-  }
-
-  .theme .theme18 .navigation-wrapper .active > .website-nav-link {
-    background: #eb6a56;
-    color: #fff;
-  }
-
-  .theme .theme18 .navigation-wrapper .active>a:hover {
-    color: #fff !important;
-  }
-
-  </style><style type="text/css">
-  </style>
-
-<link  rel="preload stylesheet" as="style" href='//fonts.googleapis.com/css?display=swap&family=Open+Sans%7COpen+Sans:regular%7CPlayfair+Display:italic%7CRoboto:300%7CHammersmith+One:regular%7CPoppins:regular%7CPoppins:600%7CBarlow+Semi+Condensed:500%7CBarlow+Semi+Condensed:900'>
-  
-      <meta name="facebook-domain-verification" content="va2162dvzgh5li64djxmt6wt956r2w" /><!-- /><div></div> */ /**/ <!-- -->
-        
-      <!-- Facebook Pixel Code -->
-      <script>
-        !function(f,b,e,v,n,t,s)
-        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '569124924516862');
-        fbq('track', 'PageView');
-      </script>
-      <noscript>
-        <img height="1" width="1" style="display:none" 
-             src="https://www.facebook.com/tr?id=569124924516862&ev=PageView&noscript=1"/>
-      </noscript>
-      <!-- End Facebook Pixel Code -->
-      </head>
-    <body class="theme live-theme " data-resources="https://static.web-repository.com" data-content="https://content.app-sources.com/" data-locale="es" data-ver="900" data-minor="900.3506" >
-      <div 
-      
-          class="style-full-width-layout page-layout theme25 clearfix ">
-          <a class="scrollToTop transition-all fa fa-angle-up" title="Desplazarse hacia arriba"></a>
-
-      <div class="content slide">
-        <div class="content-wrapper">
-      <div class="content">
-        <div 
-      
-      id="container-widget-1653520782634"
-      
-      data-type="Container"
-      class="grid-row
-       stretched-mobile stretched-tablet"
-      data-delay=""
-      style="padding-bottom:1.38889%;
-      padding-top: 0.0525486%; padding-left: 0;
-      background-color: rgba(0, 0, 0, 1);
-        background-position: center center;
-        background-repeat: repeat;
-        background-size: auto;
-      
-      background-image: none;">
-      <div class="grid-content ">
-          <div class="grid-column    " 
-                 style="width: 100%;
-                 padding-left:0px;padding-right:0px;
-                 background-image: none;
-                 
-                   background-size: cover;
-                   background-repeat: no-repeat;
-                   background-position: center center;
-                 
-                 top: 0px;
-                 
-                 ">
-
-              <div class="widget-row ">
-                  <div class="widget 
-          
-         widgetResponsive spacer col20" id="spacer-widget-1653520782633"
-         data-type="Spacer" 
-         style="margin-top: 0px; margin-left: 0px;">
-      <div class="widget-preserving-ratio-outer" style="padding-bottom: 2.727272727272727% ">
-        <div class="widget-preserving-ratio-inner"></div>
-      </div>
-    </div>
-  </div>
-              <div class="widget-row with-centered-content">
-                  <div class="widget 
-          widgetResponsive textWidget col20" id="text-widget-1653520782632"
-         data-type="TextWidget" 
-         data-delay=""
-         data-animation-duration=""
-         data-animation-delay=""
-         data-animation="lazyAnimation-"
-         style="margin-top: 0%; margin-left: 0px;">
-      <div class="text-widget-content"><p style="text-align: center; line-height: 1.6;"><span style="font-family: Poppins; font-size: 28px; font-weight: 700; color: rgb(234, 19, 15); text-decoration-line: underline;">-ULTRASECRETO-</span></p><p style="text-align: center; line-height: 1.4;"><span style="font-family: Poppins; font-size: 20px; font-weight: 700; color: rgb(255, 255, 255);"><span style="font-size: 22px;">"</span><span style="font-size: 22px;">ESTE VIDEO SERA ELIMINADO DENTRO DE POCO</span><span style="font-size: 22px;">"</span></span></p><p style="text-align: center; line-height: 1.4;"><span style="font-family: Poppins; font-size: 20px; font-weight: 700; color: rgb(255, 255, 255);"><span style="font-size: 18px;">HERRAMIENTA </span><span style="color: rgb(237, 144, 18); font-size: 18px;">PAGA POR VER VIDEOS</span></span></p></div>
-    </div>
-  </div>
-              </div></div>
-      </div>
-  <div 
-      
-      id="container-widget-1634963030436"
-      
-      data-type="Container"
-      class="grid-row
-       stretched-mobile stretched-tablet"
-      data-delay=""
-      style="padding-bottom:0%;
-      padding-top: 0%; padding-left: 0;
-      background-color: rgba(0, 0, 0, 1);
-        background-position: center center;
-        background-repeat: repeat;
-        background-size: auto;
-      
-      background-image: none;">
-      <div class="grid-content ">
-          <div class="grid-column    " 
-                 style="width: 100%;
-                 padding-left:0px;padding-right:0px;background-color: transparent;
-                 background-image: none;
-                 
-                   background-size: cover;
-                   background-repeat: no-repeat;
-                   background-position: center center;
-                 border-width: 0px;box-shadow: 0px 0px 9px 2px rgba(251, 160, 38, 1) ;
-                 top: 0px;
-                 border-color:rgba(250, 197, 28, 1)
-                 ">
-
-              <div class="widget-row ">
-                  <div class="widget 
-          widgetResponsive widgetCode col20" id="code-widget-1634963030435"
-         data-type="CodeWidget"
-         data-delay=""
-         data-animation-duration=""
-         data-animation-delay=""
-         data-animation="lazyAnimation-"
-         style="margin-top: 0px; margin-left: 0px;">
-
-      <div class="code-widget-content col20">
-        <script type="text/javascript" id="scr_628e5ff5cb51ac000a6177bc">var s=document.createElement("script");s.src="https://scripts.converteai.net/41fb4fce-fd5c-4cf0-b643-6e01be9ad304/players/628e5ff5cb51ac000a6177bc/player.js",s.async=!0,document.head.appendChild(s);</script><!-- */ <!-- -->
-              </div>
-    </div>
-  </div>
-              </div></div>
-      </div>
-  <div 
-      
-      id="container-widget-1634944908867"
-      
-      data-type="Container"
-      class="grid-row
-       stretched-mobile stretched-tablet"
-      data-delay=""
-      style="padding-bottom:0%;
-      padding-top: 4.16667%; padding-left: 0;
-      background-color: rgba(0, 0, 0, 1);
-        background-position: center center;
-        background-repeat: repeat;
-        background-size: auto;
-      
-      background-image: none;">
-      <div class="grid-content ">
-          <div class="grid-column    " 
-                 style="width: 100%;
-                 padding-left:0px;padding-right:0px;
-                 background-image: none;
-                 
-                   background-size: cover;
-                   background-repeat: no-repeat;
-                   background-position: center center;
-                 
-                 top: 0px;
-                 
-                 ">
-
-              <div class="widget-row with-centered-content">
-                  <div class="widget 
-         with-delay  widgetResponsive buttonWidget col20" id="button-widget-1652370207252"
-         data-type="Button" 
-         data-delay="763"
-         data-animation-duration="1100"
-         data-animation-delay="0"
-         data-animation="lazyAnimation-0"
-         style="margin-top: 0%; margin-left: 0px;">
-      <div class="main-widget-content">
-        <div style="text-align: center;">
-          <a href="https://pay.hotmart.com/A67374542Y?checkoutMode=10" 
-             target="_self" class="theme-button no-hover   " 
-             style="font-size: 17px; 
-             color:rgba(255, 255, 255, 1);font-family:'Poppins';background-color: rgba(237, 144, 18, 1);border-color: transparent;letter-spacing:0px;border-width: 7px;
-             padding: 15px 30px;
-             width: auto;
-             box-shadow: -4px 5px 5px -2px rgba(250, 197, 28, 0.4) ;
-             border-radius: 60px;">
-
-            <div class="col20 flex align-center button-icon-wrapper back-icon">
-                <i class="fa fa-arrow-circle-right"></i>
-              <span class="bold">
-                    ¡SI, YO QUIERO GANAR DINERO VIENDO VIDEOS!</span>
-                </div>
-            </a>
-        </div>
-      </div>
-    </div>
-  </div>
-              <div class="widget-row with-centered-content">
-                  <div class="widget 
-         with-delay  widgetResponsive textWidget col20" id="text-widget-1652370207250"
-         data-type="TextWidget" 
-         data-delay="763"
-         data-animation-duration="1100"
-         data-animation-delay="0"
-         data-animation="lazyAnimation-0"
-         style="margin-top: 0px; margin-left: 0px;">
-      <div class="text-widget-content"><p style="text-align: center; "><span style="color: rgb(255, 255, 255); font-family: Poppins; text-decoration-line: underline; font-size: 16px;"><a href="https://pay.hotmart.com/A67374542Y?checkoutMode=10">Compra Ahora y Recibe Acceso Inmediato</a></span></p></div>
-    </div>
-  </div>
-              </div></div>
-      </div>
-  <div 
-      
-      id="container-widget-1650047719217"
-      
-      data-type="Container"
-      class="grid-row
-       stretched-mobile stretched-tablet"
-      data-delay=""
-      style="padding-bottom:0%;
-      padding-top: 0%; padding-left: 0;
-      background-color: rgba(0, 0, 0, 1);
-        background-position: center center;
-        background-repeat: repeat;
-        background-size: auto;
-      
-      background-image: none;">
-      <div class="grid-content ">
-          <div class="grid-column    " 
-                 style="width: 100%;
-                 padding-left:0px;padding-right:0px;
-                 background-image: none;
-                 
-                   background-size: cover;
-                   background-repeat: no-repeat;
-                   background-position: center center;
-                 
-                 top: 0px;
-                 
-                 ">
-
-              <div class="widget-row ">
-                  <div class="widget 
-          
-         widgetResponsive spacer col20" id="spacer-widget-1650047719216"
-         data-type="Spacer" 
-         style="margin-top: 0px; margin-left: 0px;">
-      <div class="widget-preserving-ratio-outer" style="padding-bottom: 2.727272727272727% ">
-        <div class="widget-preserving-ratio-inner"></div>
-      </div>
-    </div>
-  </div>
-              <div class="widget-row with-centered-content">
-                  <div class="widget 
-          widgetResponsive textWidget col20" id="text-widget-1650047719215"
-         data-type="TextWidget" 
-         data-delay=""
-         data-animation-duration=""
-         data-animation-delay=""
-         data-animation="lazyAnimation-"
-         style="margin-top: 0px; margin-left: 0px;">
-      <div class="text-widget-content"><p style="text-align: center; "><a style="font-family: Poppins; font-size: 13px; background-color: rgba(255, 255, 255, 0);" href="javascript:WebPlatform.Funnels.show('1|31')"><span style="font-size: 11px; color: rgb(204, 204, 204);">Política de Privacidad y Cookies</span></a><br></p><p style="text-align: center; "><span style="font-family: Poppins; font-size: 11px; color: rgb(204, 204, 204);"><a href="javascript:WebPlatform.Funnels.show('1|32')">Política de devoluciones</a></span></p><p style="text-align: center; "><span style="font-family: Poppins; font-size: 11px; color: rgb(204, 204, 204);"><a href="javascript:WebPlatform.Funnels.show('1|33')">Aviso Legal</a></span></p><p style="text-align: center; "><span style="font-family: Poppins; font-size: 13px; color: rgb(106, 106, 106);"><br></span><span style="background-color: rgba(255, 255, 255, 0); font-family: Poppins; font-size: 11px; color: rgb(204, 204, 204);">Si tiene alguna pregunta, no dude en utilizar el correo de contacto y hable con nosotros durante el horario comercial de lunes a viernes de 9:00 am a 6:00 pm. Leemos y respondemos a todos los mensajes por orden de llegada.&nbsp;</span><span style="background-color: rgba(255, 255, 255, 0); font-family: Poppins; font-size: 11px; color: rgb(204, 204, 204);">Contacto: atencionalclientecomerce@gmail.com</span></p></div>
-    </div>
-  </div>
-              <div class="widget-row ">
-                  <div class="widget 
-          
-         widgetResponsive spacer col20" id="spacer-widget-1650047719214"
-         data-type="Spacer" 
-         style="margin-top: 0px; margin-left: 0px;">
-      <div class="widget-preserving-ratio-outer" style="padding-bottom: 2.727272727272727% ">
-        <div class="widget-preserving-ratio-inner"></div>
-      </div>
-    </div>
-  </div>
-              </div></div>
-      </div>
-  <div 
-      
-      id="container-widget-1652375665591"
-      
-      data-type="Container"
-      class="grid-row
-       stretched-mobile stretched-tablet"
-      data-delay=""
-      style="padding-bottom:0%;
-      padding-top: 0%; padding-left: 0;
-      background-color: rgba(0, 0, 0, 1);
-        background-position: center center;
-        background-repeat: repeat;
-        background-size: auto;
-      
-      background-image: none;">
-      <div class="grid-content  grid-row-empty">
-          <div class="grid-column  grid-column-no-widgets   " 
-                 style="width: 100%;
-                 padding-left:0px;padding-right:0px;
-                 background-image: none;
-                 
-                   background-size: cover;
-                   background-repeat: no-repeat;
-                   background-position: center center;
-                 
-                 top: 0px;
-                 
-                 ">
-
-              <div class="widget-row ">
-                  </div>
-              </div></div>
-      </div>
-  </div>
-      </div>
-  </div>
-
-      <!-- go to next step -->
-            <a href="javascript: WebPlatform.Funnels.show('next');" 
-               class="next-step-popup justify-center flex flex-row align-center 
-                none ">
-              <span>Pagar ahora</span>
-              <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                   width="306px" height="306px" viewBox="0 0 306 306" style="enable-background:new 0 0 306 306;" xml:space="preserve">
-              <polygon points="94.35,0 58.65,35.7 175.95,153 58.65,270.3 94.35,306 247.35,153"/>
-              </svg>
-            </a>
-          <!-- Quick Cart -->
-        <div class="cart-preview cart-preview-popup cart-preview-full-height" data-role="cart-box">
-          <div class="loader"></div>
-          <div class="cart-empty-wrapper none">
-            <h2>Tu carrito está vacío</h2>
-            <a href="/" class="primaryColor-bg2 continue-shopping-btn">Continuar</a>
-          </div>
-          <div class="cart-preview-wrapper">
-            <div class="cart-items-wrapper col20 f-left none">
-              <h2>Carrito</h2>
-              <div class="cart-container">
-                <div class="cart-labels">
-                </div>
-                <div class="col20 f-left cart-table"></div>
-                <div class="subtotal-wrapper">
-                  <span class="subtotal-price subtotal-value"></span>
-                  <span class="subtotal">Subtotal:</span>
-                </div>
-                <div class="subtotal-wrapper product-discount-wrapper none-soft">
-                  <span class="subtotal-price force-right"></span>
-                  <span class="subtotal force-right">
-                    <a class="remove-discount-btn"><i class="fa fa-trash-o"></i></a>
-                    Descuento&nbsp;<span></span>
-                  </span>
-                </div>
-                <div class="subtotal-wrapper shipping-discount-wrapper none-soft">
-                  <span class="subtotal-price force-right"></span>
-                  <span class="subtotal force-right">
-                    <a class="remove-discount-btn"><i class="fa fa-trash-o"></i></a>
-                    Descuento&nbsp;<span></span>
-                  </span>
-                </div>
-                <div class="checkout-buttons">
-                      <a href="javascript: WebPlatform.Funnels.showNextStepOrCheckout();"
-                         value="Realizar compra" class="primaryColor-bg2 checkout-btn">Realizar compra</a>
-                    </div>
-                  </div>
-            </div>
-          </div>
-        </div>
-        <div class="cart-preview-overlay none"></div> 
-      </div>
-
-    <div class="popup-wrapper at-center none" id="analyticsSettings">
-        <div class="popup-overlay" style="background: rgba(0, 0, 0, 0.7);">
-        </div>
-        <div class="wrapping-table">
-          <div class="popup-container cookies-popup">
-            <a class="close-btn"></a>
-            <span class="f-left col20 cookies-popup-title">Informes de datos de los visitantes</span>
-            <input id="analyticsTracking" class="css-label modify" type="checkbox" name="analyticsTracking" />
-            <label for="analyticsTracking" class="css-label2 button-tooltip">Permitir que este sitio web recopile información de visitantes y dispositivos con fines estadísticos</label>
-            <div class="f-left col20"><button class="save-changes at-middle">Guardar cambios</button></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Quick View -->
-      <div class="quick-view-overlay">
-        <div class="quick-view-wrapper">
-          <a data-role="close" class="close-btn"></a>
-          <div class="quick-view-inner-wrapper custom-scroll">
-            <div class="product-photo-container custom-scroll" data-role="images" data-trigger=".product-main-photo" data-manual-trigger="true"></div>
-            <div class="product-body-container custom-scroll">
-              <span class="quick-view-title"><a data-role="title" data-add="url"></a></span>
-                <div class="product-price">
-                <span class="current-price" data-role="currentPrice"></span>
-                <span class="old-price" data-role="oldPrice"></span>
-                <span data-role="subPeriod" style="font-size: 16px"></span>
-              </div>
-              <a class="view-details-btn" data-add="url">Ver detalles</a>
-              
-              <div class="product-variations" data-role="variations"></div>
-              <div class="addtocart-wrapper">
-                <div class="qty-wrapper">
-                  <label>Cantidad</label>
-                  <div class="number-selector f-left flex align-center">
-                    <a class="number-pad flex-none" data-role="-1">-</a>
-                    <input class="quantity no-spin" name="orderQuantity" type="number" size="4" value="1" step="1" max="9999" min="1" aria-label="Cantidad" />
-                    <a class="number-pad flex-none" data-role="1">+</a>
-                  </div>
-                </div>
-                <div class="add-to-wrapper">
-                  <a data-role="addToCart" data-process="buy" class="primaryColor-bg2 add-to-cart"></a>
-                  <div class="sold-out-btn none" data-role="soldOut">Agotado</div>
-                </div>
-              </div>
-              <div class="col20 f-left product-description none" data-role="simple-desc"></div>
-              <div class="product-description none"></div>
-            </div>
-          </div>
-        </div>
-      </div>  
-
-      
-
-
-
-
-
-<script type="text/javascript">
-  window.WebPlatform = window.WebPlatform || {};
-  WebPlatform.Phrases = (WebPlatform.merge || window.mergeUnique)({
-    'client.by': "por",
-    'client.on': "el",
-    'client.in': "en",
-    'label.of': "de",
-    'client.comment': "Comentario",
-    'client.comments': "Comentarios",
-    'client.read_more': "Leer más",
-    'client.load_more': "Cargar más",
-    'label.view': "Ver",
-    'label.years': "Años",
-    'label.months': "Meses",
-    'label.days': "Días",
-    'label.minutes': "Minutos",
-    'label.hours': "Horas",
-    'label.seconds': "Segundos",
-    'card.number': "Número de tarjeta",
-    'card.cvc': "CVC",
-    'card.mm': "MM",
-    'card.yyyy': "AAAA",
-    'card.invalid_data': "Por favor, verifica los datos de tu tarjeta de crédito/débito e inténtalo de nuevo.",
-    'card.invalid_number': "El número de tarjeta no es un número válido de tarjeta de crédito o débito.",
-    'card.invalid_month': "El mes de caducidad de tu tarjeta no es válido.",
-    'card.invalid_year': "El año de caducidad de tu tarjeta no es válido.",
-    'card.invalid_cvc': "El código de seguridad de tu tarjeta no es válido.",
-    'card.unknown_error': "Por favor, verifica tus datos de pago y vuelve a intentarlo.",
-    'label.shipping_address': "Dirección de envío",
-    'label.billing_address': "Dirección de facturación",
-    'label.january': "Enero",
-    'label.february': "Febrero",
-    'label.march': "Marzo",
-    'label.april': "Abril",
-    'label.may': "Mayo",
-    'label.june': "Junio",
-    'label.july': "Julio",
-    'label.august': "Agosto",
-    'label.september': "Septiembre",
-    'label.october': "Octubre",
-    'label.november': "Noviembre",
-    'label.december': "Diciembre",
-    'label.jan': "Ene",
-    'label.feb': "Feb",
-    'label.mar': "Mar",
-    'label.apr': "Abr",
-    'label.may_short': "Mayo",
-    'label.jun': "Jun",
-    'label.jul': "Jul",
-    'label.aug': "Ago",
-    'label.sep': "Sep",
-    'label.oct': "Oct",
-    'label.nov': "Nov",
-    'label.dec': "Dic",
-    'label.add_to_cart': "Añadir al carrito",
-    'label.buy_now': "Comprar ahora",
-    'label.update': "Actualizar",
-    'label.change': "Cambiar",
-    'label.month': "mes",
-    'label.year': "año",
-    'label.months_lower': "meses",
-    'label.years_lower': "años",
-    'label.week_lower': "semana",
-    'label.weeks_lower': "semanas",
-    'label.saving': "Ahorro",
-    'label.checkout_now': "Pagar ahora",
-    'label.view_cart': "Ver carrito",
-    'label.select_product_variant': "Seleccionar variación",
-    'err.select_product_variants': "Selecciona la variación para cada artículo de tu pedido",
-    'label.cod': "Pago contra reembolso",
-    'label.bank': "Transferencia bancaria",
-    'label.yes': "SÍ",
-    'label.no': "NO",
-    'label.enter_delivery_address': "Introduce tus datos de envío",
-    'label.no_delivery_offices': "No hay oficinas disponibles",
-    'label.select_speedy_office': "Seleccionar oficina de Speedy",
-    'label.no_shipping_services': "Introduce la dirección",
-    'label.select_delivery_type': "Selecciona el tipo de entrega",
-    'label.monday_min': "L",
-    'label.tuesday_min': "M",
-    'label.wednesday_min': "X",
-    'label.thursday_min': "J",
-    'label.friday_min': "V",
-    'label.saturday_min': "S",
-    'label.sunday_min': "D",
-    'label.monday_short': "Lun",
-    'label.tuesday_short': "Mar",
-    'label.wednesday_short': "Miér",
-    'label.thursday_short': "Jue",
-    'label.friday_short': "Vie",
-    'label.saturday_short': "Sáb",
-    'label.sunday_short': "Dom",
-    'label.contact_booked_error': "Ya has reservado una plaza en este evento de grupo",
-    'label.already_booked_time_error': "La hora seleccionada no está disponible, por favor selecciona otra hora",
-    'label.booking_notice_error': "La reserva está demasiado cerca de la hora actual. Por favor, recarga la página",
-    'label.slots_left': "plazas restantes",
-    'store.label.sale': "Oferta",
-    'label.left_in_stock_multiple': "¡Solo quedan %x% en stock!",
-    'label.left_in_stock_single': "¡Solo queda 1 en stock!",
-    'label.taxes': "Impuesto:",
-    'label.taxes_included': "Impuesto incluido:",
-    'error.fill_required_fields': "Por favor, completa todos los campos obligatorios."
-  }, WebPlatform.Phrases || {});
-</script><script type="text/javascript">
-          WebPlatform.Store = WebPlatform.Store || {};
-        
-          WebPlatform.merge(WebPlatform.Store, {
-            hideUnavailableVariations: false,
-            notEnoughQuantityMessage: "No hay suficiente cantidad disponible para algunos de los productos.",
-            currencySymbol: "$",
-            currencySymbolAtLeft: true,
-            currency: 'USD',
-            priceWithTax: true,
-            country: 'US',
-            baseUrl: '/',
-                productAddedToCart: 'El producto se ha añadido a tu carrito',
-                fbPxId: '569124924516862'
-              });
-        
-              WebPlatform.Funnels = WebPlatform.Funnels || {};
-              WebPlatform.Funnels.hideProductLinks = true;
-              WebPlatform.Funnels.showCheckoutButton = true;
-              WebPlatform.Funnels.checkoutButtonTarget = "";
-              WebPlatform.Funnels.variant = "HERw4iu9EwAegAvf1dIDfA==";
-              WebPlatform.Funnels.steps = [
-                /**/
-                {type: 'PAGE', host: '', base: 'japon', url: 'fb', id: 13, kind: 'REGULAR', funnelId: 1},
-                  /**/
-                {type: 'PAGE', host: '', base: 'japon', url: 'politicas-de-privacidad', id: 31, kind: 'REGULAR', funnelId: 1},
-                  /**/
-                {type: 'PAGE', host: '', base: 'japon', url: 'politicas-de-devoluciones', id: 32, kind: 'REGULAR', funnelId: 1},
-                  /**/
-                {type: 'PAGE', host: '', base: 'japon', url: 'aviso-legal', id: 33, kind: 'REGULAR', funnelId: 1},
-                  /**/
-              ];
-        
-
-              WebPlatform.clientData = null;
-              WebPlatform.visitorEmail = '';
-              WebPlatform.visitorName = '';
-      </script>
-
-      <script type="text/javascript" src="https://static.web-repository.com/scripts/platform.client.min.js?v=900" data-cookieconsent="ignore"></script>
-        <style type="text/css">
-  .buttonWidget .theme-button {
-    overflow: hidden;
-  }
-  
-  .empty.select-website-wrapper {
-    display: none !important;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .widget-preserving-ratio-inner,
-    .widget.imageWidget {
-        max-height: none !important;
-    }
-  }
-  
-  .theme .page-layout {
-    min-height: 100vh;
-  }
-
+<html lang="pt-PT">
+<head>
+	<meta charset="UTF-8">
+			<title>pressel-recall &#8211; Site Oficial</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='max-image-preview:large' />
+<title>pressel-recall &#8211; Site Oficial</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Site Oficial &raquo; Feed" href="https://playrentaveis.fun/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Site Oficial &raquo; Feed de comentários" href="https://playrentaveis.fun/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/playrentaveis.fun\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.0"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
 </style>
+	<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip:auto!important;-webkit-clip-path:none;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color),html :where([style*=border-width]){border-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}
+</style>
+<style id='global-styles-inline-css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--foreground: #000000;--wp--preset--color--background: #ffffff;--wp--preset--color--primary: #1a4548;--wp--preset--color--secondary: #ffe2c7;--wp--preset--color--tertiary: #F6F6F6;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--vertical-secondary-to-tertiary: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%);--wp--preset--gradient--vertical-secondary-to-background: linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--vertical-tertiary-to-background: linear-gradient(to bottom,var(--wp--preset--color--tertiary) 0%,var(--wp--preset--color--background) 100%);--wp--preset--gradient--diagonal-primary-to-foreground: linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%);--wp--preset--gradient--diagonal-secondary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-secondary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%);--wp--preset--gradient--diagonal-tertiary-to-background: linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%);--wp--preset--gradient--diagonal-background-to-tertiary: linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--duotone--foreground-and-background: url('#wp-duotone-foreground-and-background');--wp--preset--duotone--foreground-and-secondary: url('#wp-duotone-foreground-and-secondary');--wp--preset--duotone--foreground-and-tertiary: url('#wp-duotone-foreground-and-tertiary');--wp--preset--duotone--primary-and-background: url('#wp-duotone-primary-and-background');--wp--preset--duotone--primary-and-secondary: url('#wp-duotone-primary-and-secondary');--wp--preset--duotone--primary-and-tertiary: url('#wp-duotone-primary-and-tertiary');--wp--preset--font-size--small: 1rem;--wp--preset--font-size--medium: 1.125rem;--wp--preset--font-size--large: 1.75rem;--wp--preset--font-size--x-large: clamp(1.75rem, 3vw, 2.25rem);--wp--preset--font-family--system-font: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;--wp--custom--spacing--small: max(1.25rem, 5vw);--wp--custom--spacing--medium: clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)));--wp--custom--spacing--large: clamp(4rem, 10vw, 8rem);--wp--custom--spacing--outer: var(--wp--custom--spacing--small, 1.25rem);--wp--custom--typography--font-size--huge: clamp(2.25rem, 4vw, 2.75rem);--wp--custom--typography--font-size--gigantic: clamp(2.75rem, 6vw, 3.25rem);--wp--custom--typography--font-size--colossal: clamp(3.25rem, 8vw, 6.25rem);--wp--custom--typography--line-height--tiny: 1.15;--wp--custom--typography--line-height--small: 1.2;--wp--custom--typography--line-height--medium: 1.4;--wp--custom--typography--line-height--normal: 1.6;}body { margin: 0; }body{background-color: var(--wp--preset--color--background);color: var(--wp--preset--color--foreground);font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);line-height: var(--wp--custom--typography--line-height--normal);--wp--style--block-gap: 1.5rem;}.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }.wp-site-blocks > * { margin-block-start: 0; margin-block-end: 0; }.wp-site-blocks > * + * { margin-block-start: var( --wp--style--block-gap ); }h1{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--colossal);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h2{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}h3{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--huge);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h4{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--preset--font-size--x-large);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}h5{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 700;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}h6{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: 400;line-height: var(--wp--custom--typography--line-height--normal);text-transform: uppercase;}a{color: var(--wp--preset--color--foreground);}.wp-block-button__link{background-color: var(--wp--preset--color--primary);border-radius: 0;color: var(--wp--preset--color--background);font-size: var(--wp--preset--font-size--medium);}.wp-block-post-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--tiny);}.wp-block-post-comments{padding-top: var(--wp--custom--spacing--small);}.wp-block-pullquote{border-width: 1px 0;}.wp-block-query-title{font-family: var(--wp--preset--font-family--source-serif-pro);font-size: var(--wp--custom--typography--font-size--gigantic);font-weight: 300;line-height: var(--wp--custom--typography--line-height--small);}.wp-block-quote{border-width: 1px;}.wp-block-site-title{font-family: var(--wp--preset--font-family--system-font);font-size: var(--wp--preset--font-size--medium);font-weight: normal;line-height: var(--wp--custom--typography--line-height--normal);}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-color{color: var(--wp--preset--color--foreground) !important;}.has-background-color{color: var(--wp--preset--color--background) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-tertiary-color{color: var(--wp--preset--color--tertiary) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-background-color{background-color: var(--wp--preset--color--foreground) !important;}.has-background-background-color{background-color: var(--wp--preset--color--background) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-background-color{background-color: var(--wp--preset--color--tertiary) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-foreground-border-color{border-color: var(--wp--preset--color--foreground) !important;}.has-background-border-color{border-color: var(--wp--preset--color--background) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-tertiary-border-color{border-color: var(--wp--preset--color--tertiary) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-vertical-secondary-to-tertiary-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-tertiary) !important;}.has-vertical-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-secondary-to-background) !important;}.has-vertical-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--vertical-tertiary-to-background) !important;}.has-diagonal-primary-to-foreground-gradient-background{background: var(--wp--preset--gradient--diagonal-primary-to-foreground) !important;}.has-diagonal-secondary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-secondary-to-background) !important;}.has-diagonal-background-to-secondary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-secondary) !important;}.has-diagonal-tertiary-to-background-gradient-background{background: var(--wp--preset--gradient--diagonal-tertiary-to-background) !important;}.has-diagonal-background-to-tertiary-gradient-background{background: var(--wp--preset--gradient--diagonal-background-to-tertiary) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-system-font-font-family{font-family: var(--wp--preset--font-family--system-font) !important;}.has-source-serif-pro-font-family{font-family: var(--wp--preset--font-family--source-serif-pro) !important;}
+</style>
+<link rel='stylesheet' id='twentytwentytwo-style-css'  href='https://playrentaveis.fun/wp-content/themes/twentytwentytwo/style.css?ver=1.1' media='all' />
+<style id='twentytwentytwo-style-inline-css'>
 
+		@font-face{
+			font-family: 'Source Serif Pro';
+			font-weight: 200 900;
+			font-style: normal;
+			font-stretch: normal;
+			font-display: swap;
+			src: url('https://playrentaveis.fun/wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
+		}
 
+		@font-face{
+			font-family: 'Source Serif Pro';
+			font-weight: 200 900;
+			font-style: italic;
+			font-stretch: normal;
+			font-display: swap;
+			src: url('https://playrentaveis.fun/wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
+		}
+		
+</style>
+<link rel='stylesheet' id='elementor-icons-css'  href='https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.11.0' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.2.5' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='https://playrentaveis.fun/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.2.5' media='all' />
+<style id='elementor-frontend-inline-css'>
+@font-face{font-family:eicons;src:url(https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);src:url(https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"),url(https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"),url(https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"),url(https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"),url(https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");font-weight:400;font-style:normal}
+</style>
+<link rel='stylesheet' id='elementor-post-7-css'  href='https://playrentaveis.fun/wp-content/uploads/elementor/css/post-7.css?ver=1651856018' media='all' />
+<link rel='stylesheet' id='elementor-pro-css'  href='https://playrentaveis.fun/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.3.1' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='https://playrentaveis.fun/wp-content/uploads/elementor/css/global.css?ver=1651857190' media='all' />
+<link rel='stylesheet' id='elementor-post-126-css'  href='https://playrentaveis.fun/wp-content/uploads/elementor/css/post-126.css?ver=1653225329' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0' media='all' />
+<link rel="https://api.w.org/" href="https://playrentaveis.fun/wp-json/" /><link rel="alternate" type="application/json" href="https://playrentaveis.fun/wp-json/wp/v2/pages/126" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://playrentaveis.fun/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://playrentaveis.fun/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 6.0" />
+<link rel="canonical" href="https://playrentaveis.fun/pressel-recall/" />
+<link rel='shortlink' href='https://playrentaveis.fun/?p=126' />
+<link rel="alternate" type="application/json+oembed" href="https://playrentaveis.fun/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fplayrentaveis.fun%2Fpressel-recall%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://playrentaveis.fun/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fplayrentaveis.fun%2Fpressel-recall%2F&#038;format=xml" />
+		<link rel="preload" href="https://playrentaveis.fun/wp-content/themes/twentytwentytwo/assets/fonts/SourceSerif4Variable-Roman.ttf.woff2" as="font" type="font/woff2" crossorigin>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
+<body class="page-template page-template-elementor_canvas page page-id-126 wp-embed-responsive elementor-default elementor-template-canvas elementor-kit-7 elementor-page elementor-page-126">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-foreground-and-background"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-foreground-and-secondary"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.88627450980392" /><feFuncB type="table" tableValues="0 0.78039215686275" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-foreground-and-tertiary"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.96470588235294" /><feFuncG type="table" tableValues="0 0.96470588235294" /><feFuncB type="table" tableValues="0 0.96470588235294" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-primary-and-background"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.10196078431373 1" /><feFuncG type="table" tableValues="0.27058823529412 1" /><feFuncB type="table" tableValues="0.28235294117647 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-primary-and-secondary"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.10196078431373 1" /><feFuncG type="table" tableValues="0.27058823529412 0.88627450980392" /><feFuncB type="table" tableValues="0.28235294117647 0.78039215686275" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-primary-and-tertiary"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.10196078431373 0.96470588235294" /><feFuncG type="table" tableValues="0.27058823529412 0.96470588235294" /><feFuncB type="table" tableValues="0.28235294117647 0.96470588235294" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>		<div data-elementor-type="wp-page" data-elementor-id="126" class="elementor elementor-126" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-558284c0 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="558284c0" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-21170233" data-id="21170233" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2ec87879 elementor-widget elementor-widget-spacer" data-id="2ec87879" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6c1c7baa elementor-widget elementor-widget-image" data-id="6c1c7baa" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img src="https://playrentaveis.fun/wp-content/uploads/elementor/thumbs/download-pofcdc0sntlz7wmrhsummvy3eegxpfunwds0cuqtyo.png" title="download" alt="download" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-5bf139a3 elementor-widget elementor-widget-heading" data-id="5bf139a3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default"><span style="color: #164CA7;">TUDO CERTO! </span><br>APERTE NO BOTÃO CONTINUAR PARA SER DIRECIONADO PARA A PÁGINA SOLICITADA.</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-364cb286 elementor-align-center elementor-widget elementor-widget-button" data-id="364cb286" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a href="" class="elementor-button-link elementor-button elementor-size-md" role="button">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">CONTINUAR...</span>
+		</span>
+					</a>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5b91faa5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5b91faa5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6d5da853" data-id="6d5da853" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-4cddb9ab elementor-widget elementor-widget-text-editor" data-id="4cddb9ab" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p>Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook. Depois que você sair do Facebook, a responsabilidade não é deles e sim do nosso site. Fazemos todos os esforços para indicar claramente e mostrar todas as provas do produto e usamos resultados reais. Nós não vendemos o seu e-mail ou qualquer informação para terceiros. Jamais fazemos nenhum tipo de spam. Se você tiver alguma dúvida, sinta-se à vontade para usar o e-mail de contato contato.lucrandocomvideos@gmail.com e falar conosco em horário comercial de Segunda a Sextas das 09h00 ás 18h00. Lemos e respondemos todas as mensagens por ordem de chegada.</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-5ce5dbaf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ce5dbaf" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3f1725d8" data-id="3f1725d8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-17d0f583 elementor-widget elementor-widget-text-editor" data-id="17d0f583" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><a href="https://alexandrecarlos2021.github.io/politica-privacidade-game/?fbclid=IwAR2m9748EY7h93kcXI7Dl_uUg2GzKmsXj8jECIpJaaYcQPd9wQ_CeBTm7CM" target="_blank" rel="noopener">POLÍTICA DE PRIVACIDADE</a></p>						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-43167391" data-id="43167391" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-41ac4cc9 elementor-widget elementor-widget-text-editor" data-id="41ac4cc9" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+								<p><a href="https://sortefacil.digital/termos-de-uso/" target="_blank" rel="noopener">TERMOS DE USO</a></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		
+		<style id="skip-link-styles">
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip: rect(1px,1px,1px,1px);
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
 
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip: auto !important;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+	</style>
+		<script>
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
 
-<!-- FF with DAP -->
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
 
+		// Get the site wrapper.
+		// The skip-link will be injected in the beginning of it.
+		sibling = document.querySelector( '.wp-site-blocks' );
 
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQ99KQ3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) --><!-- */ <!-- -->
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
 
-      </body>
-  </html>
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerHTML = 'Saltar para o conteúdo';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	</script>
+	<script src='https://playrentaveis.fun/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.3.1' id='elementor-pro-webpack-runtime-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.2.5' id='elementor-webpack-runtime-js'></script>
+<script src='https://playrentaveis.fun/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://playrentaveis.fun/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.2.5' id='elementor-frontend-modules-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.3.1' id='elementor-sticky-js'></script>
+<script id='elementor-pro-frontend-js-before'>
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/playrentaveis.fun\/wp-admin\/admin-ajax.php","nonce":"456d03bcbb","urls":{"assets":"https:\/\/playrentaveis.fun\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"pt_PT","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/playrentaveis.fun\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.3.1' id='elementor-pro-frontend-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+<script src='https://playrentaveis.fun/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1' id='jquery-ui-core-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.2.5' id='share-link-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+<script id='elementor-frontend-js-before'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Partilhar no Facebook","shareOnTwitter":"Partilhar no Twitter","pinIt":"Fix\u00e1-lo","download":"Download","downloadImage":"Descarregar Imagem","fullscreen":"\u00c9cr\u00e3 Inteiro","zoom":"Zoom","share":"Partilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Seguinte","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1365,"direction":"max","is_enabled":false},"laptop":{"label":"Port\u00e1til","value":1620,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"direction":"min","is_enabled":false}}},"version":"3.2.5","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true,"form-submissions":true,"video-playlist":true},"urls":{"assets":"https:\/\/playrentaveis.fun\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":126,"title":"pressel-recall%20%E2%80%93%20Site%20Oficial","excerpt":"","featuredImage":false}};
+</script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.2.5' id='elementor-frontend-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.3.1' id='pro-preloaded-elements-handlers-js'></script>
+<script src='https://playrentaveis.fun/wp-content/plugins/elementor/assets/js/preloaded-modules.min.js?ver=3.2.5' id='preloaded-modules-js'></script>
+	</body>
+</html>
